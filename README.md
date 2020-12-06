@@ -1,4 +1,4 @@
-# 01 HTML CSS Git: Code Refactor
+<!-- # 01 HTML CSS Git: Code Refactor
 
 ## Your Task
 
@@ -98,4 +98,4 @@ You are required to submit the following for review:
 * The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
 
 - - -
-© 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+© 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved. -->

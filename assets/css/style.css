@@ -16,10 +16,12 @@ nav {
     position: fixed;
     z-index: 1;
     width: 100%;
-    display: inline-block
+    height: 150px;
+    display: inline-block;
 }
 
 h1 {
+    float: left;
     font-size: 48px;
     color: #d9dcd6;
 }
@@ -39,7 +41,6 @@ a {
     text-decoration: none;
     display: inline-block;
     margin-left: 25px;
-
 }
 
 span {
@@ -56,6 +57,24 @@ span {
 
 #social-media-marketing {
 
+}
+
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-size: cover;
+    background-position: center;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+div.nav-position {
+    position: absolute;
+    right: 0px;
 }
 
 /* 

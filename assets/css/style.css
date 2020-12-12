@@ -8,101 +8,6 @@ body {
     background-color: #d9dcd6;
 }
 
-
-/* Header */
-
-nav {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
-    position: fixed;
-    z-index: 1;
-    width: 100%;
-    height: 70px;
-    display: inline-block;
-}
-
-h1 {
-    position: absolute;
-    font-size: 50px;
-    color: #d9dcd6;
-    top: 10px;
-    left: 10px;
-}
-
-div.nav-position {
-    position: absolute;
-    right: 30px;
-    top: 27px;
-}
-
-a {
-    float: inherit;
-    color: #ffffff;
-    text-decoration: none;
-    font-size: 16px;
-    margin-left: 25px;
-}
-
-/* Content */
-
-h2 {   
-    margin-bottom: 20px;
-    font-size: 36px;
-    display: block;
-    font-size: 1.5em;
-    margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-
-}
-
-section {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-    display: block;
-}
-
-main {
-    float: left;
-    width: 75%;
-}
-
-main img {
-    max-height: 200px;
-}
-
-p {
-    font-size: 16px;
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-}
-
-span {
-    color: #609ebd;
-}
-
-a:hover {
-    color: #609ebd;
-}
-
-.hero {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-size: cover;
-    background-position: center;
-}
-
 .float-right {
     float: right;
     margin-left: 25px;
@@ -113,18 +18,118 @@ a:hover {
     margin-right: 25px;
 }
 
-.float-right {
-    float: right;
+
+/* CSS Code pertaining specifically to the Header (Navigation Bar) portion of the website.*/
+
+/* Navigation Bar element <nav> formatting and position */
+nav.navbar {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 70px;
+    display: inline-block;
+}
+
+/* Company Name */
+nav h1 {
+    position: absolute;
+    font-size: 50px;
+    color: #d9dcd6;
+    top: 10px;
+    left: 10px;
+}
+
+/* Special color for 3 letters, 'SEO' in Company Names. */
+span {
+    color: #609ebd;
+}
+
+/* Positioning for the <div> element containing 3 navigation links <a> in the nav bar <nav>. */
+div.nav-links {
+    position: absolute;
+    right: 30px;
+    top: 27px;
+}
+
+/* Formatting for the 3 navigation <a> links */
+.nav-images {
+    float: inherit;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
     margin-left: 25px;
 }
 
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
+.nav-images:hover {
+    color: #609ebd;
 }
 
-aside {
+/* Opening website image */
+.team-meeting {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* CSS Code pertaining specifically to the Content portion of the website. */
+
+/* Formatting for the <main> element of the website. */
+main.main-formatting {
+    margin-left: 20px;
+    float: left;
+    width: 75%;
+}
+
+/* Formatting for the images <img> in the <main> element of the website.*/
+main img {
+    max-height: 200px;
+}
+
+/* Formatting for the <section> elements of the <main> element of the website. */
+section.section-formatting {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+    display: block;
+}
+
+/* Formatting for the paragraphs <p> specific to the <section> elements in the <main> element. */
+section p {
+    font-size: 16px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+/* Formatting for the headers <h2> specific to the <section> elements in the <main> element. */
+section h2 {   
+    margin-bottom: 20px;
+    font-size: 36px;
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+
+/* CSS Code pertaining specifically to the Aside portion of the website. */
+
+/* Formatting for the <aside> element of the website. */
+aside.aside-formatting {
     margin-right: 20px;
     padding: 20px;
     float: right;
@@ -135,18 +140,21 @@ aside {
     display: block;
 }
 
-.benefit {
+/* Formatting for the <div> content elements of the <aside> element. */
+div.div-aside {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit img {
+/* Formatting for images in the <div> elements of the <aside> element. */
+div.div-aside img {
     display: block;
     margin: -27.5px auto;
     max-width: 200px;
 }
 
-h3 {
+/* Formatting for the headers <h3> specific to the <div> elements in the <aside> element. */
+aside div h3 {
     margin-bottom: 0px;
     text-align: center;
     display: block;
@@ -158,7 +166,8 @@ h3 {
     font-weight: bold;
 }
 
-p {
+/* Formatting for the paragraphs <h3> specific to the <div> elements in the <aside> element. */
+aside div p {
     font-size: 16px;
     display: block;
     margin-block-start: 1em;
@@ -167,6 +176,7 @@ p {
     margin-inline-end: 0px;
 }
 
+/* Formatting for the footer element */
 footer {
     padding: 30px;
     clear: both;
